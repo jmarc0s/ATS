@@ -138,3 +138,19 @@ body{
     font-size: 20px;
     font-family: 'Hind Vadodara';
 }
+
+
+.section__sobre_nos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+.text_div__paragrath{
+    width: 580px;
+    font-family: 'Hind Vadodara';
+    font-weight: 500;
+    font-size: 24px;
+    color: #331B3BA8;
+}
