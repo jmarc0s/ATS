@@ -1,6 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500&family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500&family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 /*:root{
     --cor-primaria: 
 }*/
@@ -37,12 +38,15 @@ body{
 }
 
 .menu__list__item{
-    color: #FFFFFF;
-    font-size: 23px;
     width: 100px;
-    font-family: 'Segoe UI';
 }
 
+.menu__list__item__link{
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
 
 .header__section {
     display: flex;
@@ -59,14 +63,14 @@ body{
 .div__tittle{
     color: #FFFFFF;
     font-family: 'Hind Vadodara';
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 60px;
     margin: 10px 0px;
 }
 
 .div__tittle__paragraph{
     font-family: 'Hind Vadodara';
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 40px;
     color: #FFFFFF;
     margin: 10px 0px;
@@ -91,7 +95,7 @@ body{
 }
 
 .link__paragraph{
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     font-family: 'Hind Vadodara';
     color: #FFFFFF;
@@ -99,21 +103,38 @@ body{
 
 
 .first__section{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.section__introduction{
-
-}
-
-.introduction__title{
-
-}
-
-.introduction__description{
-
-}
 
 .section__list{
-    
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.section__list__item{
+    width: 416px;
+    height: 234px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.item__title{
+    color: #331B3B;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Hind Vadodara';
+}
+
+.item__description{
+    color: #331B3BA8;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Hind Vadodara';
 }
