@@ -218,6 +218,14 @@ body{
     border-radius: 10px;
 }
 
+.form__input::placeholder{
+    font-family: 'Cairo';
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+
 .form__inputs{
     display: flex;
     flex-direction: column;
@@ -227,18 +235,32 @@ body{
 
 .form__button{
     display: flex;
-    width: 1099px;
-    flex-direction: column;
+    width: 1179px;
     justify-content: center;
     align-items: center;
     gap: 16px;
     border-radius: 10px;
     background: #2995E2;
+    color: #FFFFFF;
+    height: 65px;
+    font-size: 18px;
+    font-family: 'Hind Vadodara';
+    font-weight: 700;
 }
+
+
+
 
 .container__container{
     display: flex;
     flex-direction: column;
+}
+
+.container__label{
+    font-family: 'Hind Vadodara';
+    font-size: 17px;
+    font-weight: 600;
+    color: #4F4F4F;
 }
 
 
