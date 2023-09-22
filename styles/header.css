@@ -1,0 +1,89 @@
+.header{
+    background-image: url("../imagens/BackgroundHeader.svg");
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 20px;
+}
+
+.menu{
+    margin: 0px;
+    width: 800px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu__list{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    width: 500px;
+}
+
+.menu__list__item{
+    width: 100px;
+}
+
+.menu__list__item__link{
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+}
+
+.header__section {
+    display: flex;
+    justify-content: space-between;
+    width: 1700px;
+}
+
+.section__div{
+    padding-left: 90px;
+    width: 700px;
+    margin-top: 50px
+}
+
+.div__tittle{
+    color: #FFFFFF;
+    font-family: 'Hind Vadodara';
+    font-weight: 700;
+    font-size: 60px;
+    margin: 10px 0px;
+}
+
+.div__tittle__paragraph{
+    font-family: 'Hind Vadodara';
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 10px 0px;
+}
+
+.div__link{
+    display: flex;
+    width: 407px;
+    height: 70px;
+    background-color: #009A47;
+    border-radius: 16px;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.link__icon{
+    width: 36px;
+    height: 36px;
+
+}
+
+
+.link__paragraph{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Hind Vadodara';
+    color: #FFFFFF;
+}

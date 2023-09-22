@@ -1,0 +1,116 @@
+.section__ourjobs{
+    background-image: url('../imagens/Rectangle\ 13.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 58.5px;
+    height: 673px;
+    padding: 100px 61px;
+}
+
+.ourjobs__introduction{
+    margin-bottom: 37px;
+}
+
+.ourjobs__introduction__title{
+    font-family: 'Hind Vadodara';
+    font-weight: 700;
+    font-size: 48px;
+    color: #331B3B;
+    margin: 5px;
+    padding: 0px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+}
+
+.ourjobs__introduction__description{
+    font-size: 48px;
+    font-family: 'Hind Vadodara';
+    font-weight: 300;
+    color: #331B3B;
+    margin: 5px;
+    padding: 0px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+}
+
+.ourjobs__list{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    padding: 0px;
+}
+
+.ourjobs__list__item{
+    width: 419px;
+    height: 365px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 24px 13px;
+    gap: 43px; 
+    display: flex;
+    flex-direction: column;
+    /*width: 519px;
+    height: 465px;*/
+}
+
+.item__boxs{
+    display: flex;
+    gap: 20px;
+}
+
+.item__boxs__larger__box{
+    width: 286px;
+    height: 238px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    /*width: 386px;
+    height: 338px;*/
+}
+
+.item__boxs__smaller__box{
+    width: 89px;
+    height: 238px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+   /* width: 89px;
+    height: 338px;*/
+}
+
+.ourjobs__list__item__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__description__title{
+    color: #331B3B;
+    font-family: 'Hind Vadodara';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 4px;
+}
+
+.item__description__link{
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Hind Vadodara';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 146.3%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 97px;
+    height: 38px;
+    border-radius: 100px;
+    background: #2995E2; 
+    margin: 4px;
+}
