@@ -149,6 +149,9 @@ body{
     padding: 0px 80px;
 }
 
+.img_div__img:hover{
+    animation: rotateImg 0.8s linear;
+}
 .text_div__paragrath{
     width: 580px;
     font-family: 'Hind Vadodara';
@@ -390,3 +393,13 @@ body{
     font-size: 16px;
     color: #878787 ;
 }
+
+@keyframes rotateImg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
