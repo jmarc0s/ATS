@@ -1,48 +1,3 @@
-
-// const express = require('express');
-// const path = require('path');
-
-// const app = express();
-// const PORT = process.env.PORT || 3000;
-
-// app.use(express.static(path.join(__dirname)));
-
-// app.listen(PORT, () => {
-//   console.log(`Servidor rodando em http://localhost:${PORT}`);
-// });
-
-
-// const nodemailer = require('nodemailer');
-
-// const enviarEmail = async () => {
-// // Configurações para o Gmail SMTP
-// const transporter = nodemailer.createTransport({
-//     host: 'smtp.gmail.com',
-//     port: 587,
-//     secure: false,
-//     auth: {
-//     user: 'api.bookstore11@gmail.com',
-//     pass: 'mlegmjybjouygibz',
-//     },
-// });
-
-// const mailOptions = {
-//     from: 'api.bookstore11@gmail.com',
-//     to: 'joaomarcoscacula88@gmail.com',
-//     subject: 'Assunto do E-mail',
-//     text: 'Corpo do E-mail em texto simples',
-//     html: '<p>Corpo do E-mail em HTML</p>',
-// };
-
-// try {
-//     const info = await transporter.sendMail(mailOptions);
-//     console.log('E-mail enviado com sucesso:', info.response);
-// } catch (error) {
-//     console.error('Erro ao enviar o e-mail:', error);
-// }
-// };
-
-
 const express = require('express');
 const nodemailer = require('nodemailer');
 const PORT = process.env.PORT || 3000;
@@ -59,8 +14,8 @@ app.post('/enviar-email', async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'api.bookstore11@gmail.com', // Substitua pelo seu e-mail
-      pass: 'mlegmjybjouygibz', // Substitua pela sua senha do e-mail
+      user: 'api.bookstore11@gmail.com', 
+      pass: 'mlegmjybjouygibz', 
     },
   });
 
