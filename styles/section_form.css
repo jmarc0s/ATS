@@ -1,3 +1,5 @@
+
+
 .section__form{
     height: 854px;
     background-image: url('../imagens/Rectangle\ 20.svg');
@@ -49,6 +51,14 @@
     height: 65px; 
     border: 1px solid #999999 ;
     border-radius: 10px;
+    color: #2995E2;
+    font-size: 17px;
+    font-family: 'Cairo';
+}
+
+.form__input:focus {
+    border-color: #2995E2;
+    outline: none;
 }
 
 .form__input::placeholder{
@@ -56,6 +66,7 @@
     font-size: 17px;
     font-weight: 600;
     padding-left: 10px;
+    color: #38393a;
 
 }
 
