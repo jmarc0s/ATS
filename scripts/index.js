@@ -15,27 +15,32 @@ form.addEventListener("submit", getDataForm);
 
 
 function sendEmail(name, destinatario){
-    
-    console.log(destinatario)
-    console.log(name)
 
-    const dadosEmail = {
-    destinatario: destinatario,
-    assunto: 'Bem vindo a ATS',
-    corpo: `Olá, ${name}, bem vindo a ATS. em breve entraremos em contato com voce!`,
-    };
+        const dadosEmail = {
+        destinatario: destinatario,
+        assunto: 'Bem vindo a ATS',
+        corpo: `Olá, ${name}, bem vindo a ATS. em breve entraremos em contato com voce!`,
+        };
 
-    fetch('http://localhost:3000/enviar-email', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(dadosEmail),
-    })
-    .then(response => response.text())
-    .then(data => console.log(data))
-    .catch(error => console.error('Erro:', error));
+        fetch('http://localhost:3000/enviar-email', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(dadosEmail),
+        })
+        .then(response => response.text())
+        .then(data => {
 
-    console.log("O formulário foi submetido!");
+            if(data === 'Erro ao enviar o e-mail.'){
+                alert('Erro ao enviar email')
+            }else{
+                console.log("O formulário foi submetido!");
+            }
+            
+        })
+        .catch(error => alert.error('Erro:', error));
+
+
 }
 
